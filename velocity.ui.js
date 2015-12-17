@@ -10,7 +10,7 @@
         module.exports = factory();
     /* AMD module. */
     } else if (typeof define === "function" && define.amd) {
-        define([ "velocity-ui-pack" ], factory);
+        // define([ "velocity-ui-pack" ], factory);
     /* Browser globals. */
     } else {
         factory();
